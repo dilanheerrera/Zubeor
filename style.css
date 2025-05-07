@@ -38,26 +38,19 @@ nav ul li:hover{
 
 /* Tablet */
 @media (max-width: 850px){
-  .barras {
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
+ .barras{
         background-color: #C08081;
+        display: block;
     }
-
-    .boton_menu {
+     .boton_menu {
         background-image: url('icono_menu.png');
         background-color: #FFB6C1; /* rosado claro */
         background-repeat: no-repeat;
         height: 30px;
         width: 30px;
         background-size: 30px 30px;
-        background-position: center;
-        border: none;
+        background-position:center;
     }
-
     .desplegable{
         display: none;
         background: rgba(255, 209, 220, 0.9); /* rosado pastel con transparencia */
@@ -113,24 +106,19 @@ nav ul li:hover{
 
 /* Celular */
 @media (max-width: 500px){
-   .barras {
+  .barras{
         display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
         background-color: #C08081;
     }
 
     .boton_menu {
         background-image: url('icono_menu.png');
-        background-color: #FFB6C1; /* rosado claro */
+        background-color: #FFB6C1;
         background-repeat: no-repeat;
         height: 30px;
         width: 30px;
         background-size: 30px 30px;
-        background-position: center;
-        border: none;
+        background-position:center;
     }
     .desplegable {
         display: none;
